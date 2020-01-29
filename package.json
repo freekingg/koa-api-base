@@ -1,0 +1,33 @@
+{
+  "name": "rest_node_api",
+  "version": "1.0.0",
+  "description": "rest_node_api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app",
+    "start": "cross-env NODE_ENV=production node app"
+  },
+  "keywords": [
+    "node",
+    "koa"
+  ],
+  "author": "king@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^6.0.3",
+    "dayjs": "^1.8.19",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.10.0",
+    "koa-body": "^4.1.1",
+    "koa-json-error": "^3.1.2",
+    "koa-jwt": "^3.6.0",
+    "koa-parameter": "^3.0.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.7.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
