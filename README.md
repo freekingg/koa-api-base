@@ -27,5 +27,5 @@ $ npm run dev
 - https://pm2.keymetrics.io/
 ```
 $ npm install -g pm2
-$ npm run pm2
+$ npm run pm2 or pm2 start pm2.json
 ```
