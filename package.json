@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app",
-    "start": "cross-env NODE_ENV=production node app"
+    "start": "cross-env NODE_ENV=production node app",
+    "pm2": "pm2 start pm2.json"
   },
   "keywords": [
     "node",
